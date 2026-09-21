@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>홍길동 — Portfolio</title>
+    <meta name="description" content="프론트엔드 개발자 홍길동의 포트폴리오." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="top">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="logo" aria-label="홍길동 홈">
+          <span class="logo-mark" aria-hidden="true">H</span>
+          <span class="logo-text">Hong Gildong</span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="메뉴 열기"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="주요 메뉴">
+          <ul>
+            <li><a href="#about">소개</a></li>
+            <li><a href="#projects">프로젝트</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img
+          class="hero-image"
+          src="assets/hero.png"
+          alt="야간 도시의 빛이 보이는 모던한 개발 작업 공간"
+        />
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">Frontend Developer</p>
+          <h1>홍길동</h1>
+          <p class="hero-lead">
+            복잡한 인터페이스를 단순한 경험으로 바꾸는 일을 합니다.
+            정갈한 UI와 단단한 인터랙션을 설계합니다.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">작업 보기</a>
+            <a class="btn btn-ghost" href="#contact">연락하기</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container about-grid">
+          <div>
+            <p class="section-label">About</p>
+            <h2>코드를 도구로,<br />경험을 결과로.</h2>
+          </div>
+          <div class="about-copy">
+            <p>
+              사용자 흐름을 먼저 읽고, 그다음 화면을 그립니다. HTML, CSS,
+              JavaScript를 중심으로 빠르고 명확한 웹을 만듭니다.
+            </p>
+            <ul class="skill-list">
+              <li>UI Engineering</li>
+              <li>Responsive Layout</li>
+              <li>Motion &amp; Interaction</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-label">Selected Work</p>
+            <h2>프로젝트</h2>
+          </div>
+          <div class="project-grid">
+            <a class="project-card" href="project-aether.html">
+              <div class="card-media">
+                <img
+                  src="assets/project-finance.png"
+                  alt="금융 대시보드 화면이 표시된 노트북 목업"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-meta">Product UI · 2026</p>
+                <h3>Aether Ledger</h3>
+                <p>
+                  자산 흐름을 한눈에 보여주는 금융 대시보드. 차트와 카드
+                  레이아웃으로 복잡한 수치를 읽기 쉽게 정리했습니다.
+                </p>
+                <ul class="tags">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Chart UI</li>
+                </ul>
+              </div>
+            </a>
+            <a class="project-card" href="project-noon.html">
+              <div class="card-media">
+                <img
+                  src="assets/project-travel.png"
+                  alt="여행 기록 앱이 표시된 폰과 태블릿 목업"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-meta">Lifestyle App · 2025</p>
+                <h3>Noon Route</h3>
+                <p>
+                  사진과 경로를 한 타임라인에 묶는 여행 기록 서비스. 따뜻한
+                  톤의 그리드와 지도 뷰로 기억을 재구성합니다.
+                </p>
+                <ul class="tags">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Vanilla JS</li>
+                </ul>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container contact-panel">
+          <p class="section-label">Contact</p>
+          <h2>다음 작업을 함께 만들어볼까요?</h2>
+          <p>프로젝트 문의는 메일로 남겨 주세요. 빠르게 답변드리겠습니다.</p>
+          <a class="btn btn-primary" href="mailto:gildong@example.com">
+            gildong@example.com
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© 2026 홍길동</span>
+        <a class="back-to-top" href="#top">맨 위로</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

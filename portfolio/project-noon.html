@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noon Route — 홍길동</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="top">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="홍길동 홈">
+          <span class="logo-mark" aria-hidden="true">H</span>
+          <span class="logo-text">Hong Gildong</span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="메뉴 열기"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="주요 메뉴">
+          <ul>
+            <li><a href="index.html#about">소개</a></li>
+            <li><a href="index.html#projects">프로젝트</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="detail-page">
+      <div class="container">
+        <a class="btn btn-ghost detail-kicker" href="index.html#projects">← 프로젝트 목록</a>
+        <p class="detail-meta">Lifestyle App · 2025</p>
+        <h1>Noon Route</h1>
+        <div class="detail-hero">
+          <img
+            src="assets/project-travel.png"
+            alt="여행 기록 앱이 표시된 폰과 태블릿 목업"
+          />
+        </div>
+        <div class="detail-copy">
+          <p>
+            사진과 이동 경로를 하나의 타임라인에 묶는 여행 기록 서비스입니다.
+            따뜻한 톤의 그리드와 지도 뷰로 그날의 동선과 장면을 다시 펼쳐 볼 수
+            있게 만들었습니다.
+          </p>
+          <h2>역할</h2>
+          <p>
+            모바일 우선 레이아웃과 갤러리·지도 전환 인터랙션을 설계했습니다.
+            긴 여행 기록도 끊기지 않도록 섹션 단위 스크롤과 카드 리듬을
+            맞췄습니다.
+          </p>
+          <h2>사용 기술</h2>
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Vanilla JS</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© 2026 홍길동</span>
+        <a class="back-to-top" href="#top">맨 위로</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

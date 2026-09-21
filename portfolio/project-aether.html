@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aether Ledger — 홍길동</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="top">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="홍길동 홈">
+          <span class="logo-mark" aria-hidden="true">H</span>
+          <span class="logo-text">Hong Gildong</span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="메뉴 열기"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="주요 메뉴">
+          <ul>
+            <li><a href="index.html#about">소개</a></li>
+            <li><a href="index.html#projects">프로젝트</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="detail-page">
+      <div class="container">
+        <a class="btn btn-ghost detail-kicker" href="index.html#projects">← 프로젝트 목록</a>
+        <p class="detail-meta">Product UI · 2026</p>
+        <h1>Aether Ledger</h1>
+        <div class="detail-hero">
+          <img
+            src="assets/project-finance.png"
+            alt="금융 대시보드 화면이 표시된 노트북 목업"
+          />
+        </div>
+        <div class="detail-copy">
+          <p>
+            자산 흐름을 한눈에 보여주는 금융 대시보드입니다. 분산된 수치를
+            차트와 카드 레이아웃으로 묶어, 한 화면에서 잔고·변동·카테고리 비중을
+            읽을 수 있게 구성했습니다.
+          </p>
+          <h2>역할</h2>
+          <p>
+            정보 구조를 재배치하고, 다크 테마 기준의 UI 컴포넌트와 반응형
+            그리드를 구현했습니다. 핵심 지표는 가장 먼저 보이도록 상단에
+            고정했습니다.
+          </p>
+          <h2>사용 기술</h2>
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Chart UI</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© 2026 홍길동</span>
+        <a class="back-to-top" href="#top">맨 위로</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
